@@ -54,7 +54,7 @@ products.each_with_index do |product, i|
   pages << {
       page_type: 'product_details',
       method: 'GET',
-      url: "https://www.americanas.com.br/produto/#{product['id']}/?searchkeyword=#{page['vars']['search_term']}&searchpage=#{page['vars']['page']}",
+      url: "https://www.americanas.com.br/produto/#{product['id']}/?_searchkeyword=#{page['vars']['search_term']}&_searchpage=#{page['vars']['page']}",
       headers:headers,
       vars: {
           'input_type' => page['vars']['input_type'],
