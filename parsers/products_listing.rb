@@ -13,7 +13,7 @@ if offset == 0 and scrape_url_nbr_products > page_size
   step_page = 2
   offset = offset + page_size
   while offset < scrape_url_nbr_products
-    puts(offset)
+
     pages << {
         page_type: 'products_listing',
         method: 'GET',
@@ -50,7 +50,7 @@ headers = {
 }
 
 products.each_with_index do |product, i|
-
+break
   pages << {
       page_type: 'product_details',
       method: 'GET',
