@@ -1,7 +1,7 @@
 pages << {
     page_type: 'products_listing',
     method: 'GET',
-    url: "https://mystique-v2-americanas.b2w.io/search?offset=0&sortBy=topSelling&source=omega&filter=%7B%22id%22%3A%22category.id%22%2C%22value%22%3A%22300228%22%2C%22fixed%22%3Atrue%7D&limit=24&suggestion=false",
+    url: "https://mystique-v2-americanas.b2w.io/search?offset=0&sortBy=topSelling&source=omega&filter=%7B%22id%22%3A%22category.id%22%2C%22value%22%3A%22493136%22%2C%22fixed%22%3Atrue%7D&limit=24&suggestion=false",
     vars: {
         'input_type' => 'taxonomy',
         'search_term' => '-',
